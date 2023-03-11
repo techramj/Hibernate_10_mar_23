@@ -1,4 +1,32 @@
-Step 1:create the maven project:
+Hibernate:
+student should be aware of core java.
+Basic understanding of db/sql.
+
+
+
+step 1: download maven 
+url: https://maven.apache.org/download.cgi
+download:Binary zip archive
+download link: https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.zip
+
+extract the zip file and save it in c drive.
+
+maven home: C:\apache-maven-3.8.4
+
+step 2: set up in system enviroment variable
+M2_HOME=<path of maven folder (parent of bin folder)>
+
+
+
+step 3: open <command/>
+check whether the maven setup is correct
+cmd> mvn -version
+
+
+
+Step 4:create the maven project:
+
+
 
 step 2: add the dependencies
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
