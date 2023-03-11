@@ -28,7 +28,7 @@ Step 4:create the maven project:
 
 
 
-step 2: add the dependencies
+step 5: add the dependencies
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.easylearning</groupId>
@@ -72,13 +72,13 @@ step 2: add the dependencies
 </project>
 
 
-step 3:
+step 6:
   open the terminal
   mvn clean install
 
 
 
-step 4:
+step 7:
 hibernate.cfg.xml
 <!DOCTYPE hibernate-configuration PUBLIC
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
@@ -97,3 +97,6 @@ hibernate.cfg.xml
         <mapping class="com.easylearning.entity.Employee"/>
     </session-factory>
 </hibernate-configuration>
+
+
+Test
