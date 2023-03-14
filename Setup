@@ -28,13 +28,7 @@ Step 4:create the maven project:
 
 
 
-step 5: add the dependencies
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.easylearning</groupId>
-	<artifactId>0000_hibernate_01</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>first-demo</name>
+step 5: add the dependencies after name/description tag
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -50,8 +44,6 @@ step 5: add the dependencies
 			<artifactId>ojdbc8</artifactId>
 			<version>21.1.0.0</version>
 		</dependency>
-
-
 	</dependencies>
 
 	<build>
@@ -69,7 +61,6 @@ step 5: add the dependencies
 	</build>
 
 
-</project>
 
 
 step 6:
